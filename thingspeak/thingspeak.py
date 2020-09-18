@@ -161,13 +161,13 @@ class ThingSpeak():
         response = self.__verify_response(response)
         return Channel(Json.loads(response.content))
     
-    def set_fields(self,fields):
-        self._fields=dict()
-        for i,field in enumerate(fields):
-            if i <8:
-                self._fields[i+1]=fields[i]            
-            else:
-                raise ValueError('field outside maximum range (8).')
+#    def set_fields(self,fields):
+#        self._fields=dict()
+#        for i,field in enumerate(fields):
+#            if i <8:
+#                self._fields[i+1]=fields[i]            
+#            else:
+#                raise ValueError('field outside maximum range (8).')
 
 class Channel():
     def __init__(self,json={}):
