@@ -3,7 +3,7 @@
 """
 Created on Thu Sep 17 13:23:21 2020
 
-@author: pi
+@author: Roger Selzler
 """
 
 import thingspeak
