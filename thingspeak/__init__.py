@@ -7,4 +7,6 @@ Created on Thu Sep 17 14:39:12 2020
 """
 
 #import thingspeak
-from .thingspeak import ThingSpeak
+from .thingspeak import ThingSpeak, Channel
+from .thingspeak import config
+from .mathworks_rest_api_responses import check_response
